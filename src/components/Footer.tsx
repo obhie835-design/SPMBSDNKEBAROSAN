@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               )}
               <span className="font-bold text-xl tracking-tight text-white">
-                {settings?.namaSekolah || 'SD Negeri Kramatwatu 1'}
+                {settings?.namaSekolah || 'SD NEGERI KEBAROSAN'}
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SD Negeri Kramatwatu 1'}. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SD NEGERI KEBAROSAN'}. Hak Cipta Dilindungi.</p>
           <p className="mt-2 md:mt-0">Sistem SPMB Online Terintegrasi</p>
         </div>
       </div>
