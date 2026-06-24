@@ -57,9 +57,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
             >
-              C.G.I <br className="hidden md:block" />
+              H.E.B.A.T <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">
-                Cemerlang, Gemilang dan Inovatif
+                Hidup dengan Etika, Berakhlak dan Berprestasi
               </span>
             </motion.h1>
             
@@ -189,6 +189,29 @@ export default function Home() {
                 <span className="bg-blue-100 text-blue-600 p-2 rounded-lg"><Trophy size={24} /></span>
                 Visi & Misi
               </h3>
+              
+              <div className="mb-8">
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
+                <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                  "{settings?.visiSekolah || 'Visi sekolah belum diatur.'}"
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
+                <ul className="space-y-3">
+                  {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-slate-600">
+                      <CheckCircle2 className="text-green-500 shrink-0 mt-0.5" size={20} />
+                      <span>{misi.replace(/^\d+\.\s*/, '')}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* Alur SPMB */}
       <section id="alur" className="py-24 bg-slate-900 text-white relative overflow-hidden">
