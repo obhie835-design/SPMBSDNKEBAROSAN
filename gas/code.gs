@@ -11,7 +11,7 @@
 const SHEET_NAME = "Data Pendaftar";
 const ADMIN_SHEET_NAME = "Admin";
 const SETTINGS_SHEET_NAME = "Pengaturan";
-const FOLDER_NAME = "SPMB 2026 SDN KRAMATWATU 1 FIKS";
+const FOLDER_NAME = "SPMB 2026 SDN KEBAROSAN FIKS";
 
 const DEFAULT_FORM_FIELDS = [
   { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
@@ -28,7 +28,7 @@ const DEFAULT_FORM_FIELDS = [
 ];
 
 const DEFAULT_SETTINGS = {
-  namaSekolah: "SD Negeri Kramatwatu 1",
+  namaSekolah: "SD Negeri KEBAROSAN",
   alamat: "Jl. Raya Serang Cilegon Km.8 No.88 Kramatwatu",
   telepon: "+6281218010605 (Bu Atun) +6289660560744 (Pak Andri)",
   email: "sdnkramatwatu01@gmail.com",
