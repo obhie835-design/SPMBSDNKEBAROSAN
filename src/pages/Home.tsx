@@ -196,8 +196,7 @@ export default function Home() {
                   "{settings?.visiSekolah || 'Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan'}"
                 </p>
               </div>
-              
-              <div className="mb-8">
+              <div
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
                   "{settings?.visiSekolah || 'Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.'}"
