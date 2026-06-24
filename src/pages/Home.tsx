@@ -189,27 +189,6 @@ export default function Home() {
                 <span className="bg-blue-100 text-blue-600 p-2 rounded-lg"><Trophy size={24} /></span>
                 Visi & Misi
               </h3>
-              
-              <div className="mb-8">
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
-                <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan'}"
-                </p>
-              </div>
-              <div
-                <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
-                <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.'}"
-                </p>
-              </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* Alur SPMB */}
       <section id="alur" className="py-24 bg-slate-900 text-white relative overflow-hidden">
