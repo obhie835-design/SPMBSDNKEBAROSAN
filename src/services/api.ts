@@ -68,10 +68,10 @@ export interface AdminData extends RegistrationData {
 // Mock data for preview if GAS URL is not set
 const getInitialMockSettings = (): AppSettings => {
   const defaultSettings: AppSettings = {
-    namaSekolah: "SD Negeri Kramatwatu 1",
-    alamat: "Jl. Raya Serang Cilegon Km.8 No.88 Kramatwatu",
-    telepon: "+6281218010605 (Bu Atun) +6289660560744 (Pak Andri)",
-    email: "sdnkramatwatu01@gmail.com",
+    namaSekolah: "SD NEGERI KEBAROSAN",
+    alamat: "Kp. Cilia RT/RW. 02/02 Desa Teluk Terate",
+    telepon: "087772463793 (Pak Izul)",
+    email: "sdnkebarosan@yahoo.co.id",
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
@@ -81,7 +81,7 @@ const getInitialMockSettings = (): AppSettings => {
     tahunPendaftaran: new Date().getFullYear().toString(),
     koordinatSekolah: "-6.200000, 106.816666", // Default to Jakarta
     tanggalCutoffUsia: "", // Tanggal ditetapkan cutoff usia
-    sambutanKepalaSekolah: "Selamat datang di website resmi SPMB SD Negeri Kramatwatu 1. Kami berkomitmen untuk memberikan pelayanan pendidikan terbaik bagi putra-putri Anda. Mari bergabung bersama kami untuk mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan berprestasi.",
+    sambutanKepalaSekolah: "Selamat datang di website resmi SPMB SD NEGERI KEBAROSAN. Kami berkomitmen untuk memberikan pelayanan pendidikan terbaik bagi putra-putri Anda. Mari bergabung bersama kami untuk mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan berprestasi.",
     fotoKepalaSekolah: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop",
     visiSekolah: "Menjadi sekolah dasar unggulan yang menghasilkan lulusan berakhlak mulia, cerdas, terampil, dan berwawasan lingkungan.",
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
