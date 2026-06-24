@@ -847,7 +847,7 @@ export default function AdminDashboard() {
                         {localSettings.fotoKepalaSekolah && <img src={localSettings.fotoKepalaSekolah} alt="Foto Kepala Sekolah" className="mt-2 h-32 object-cover border rounded bg-white" />}
                       </div>
                       <div className="md:col-span-2">
-                        <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Sambutan Kepala Sekolah</label>
+                        <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Kepala Sekolah</label>
                         <textarea
                           value={localSettings.sambutanKepalaSekolah || ''}
                           onChange={e => setLocalSettings({...localSettings, sambutanKepalaSekolah: e.target.value})}
@@ -859,7 +859,7 @@ export default function AdminDashboard() {
                       <div className="md:col-span-2">
                         <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Visi Sekolah</label>
                         <textarea
-                          value={localSettings.visiSekolah || ''}
+                          value={localSettings.visiSekolah || 'Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan'}
                           onChange={e => setLocalSettings({...localSettings, visiSekolah: e.target.value})}
                           rows={3}
                           placeholder="Masukkan visi sekolah..."
@@ -867,12 +867,12 @@ export default function AdminDashboard() {
                         />
                       </div>
                       <div className="md:col-span-2">
-                        <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Misi Sekolah</label>
+                          <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Misi Sekolah</label>
                         <textarea
-                          value={localSettings.misiSekolah || ''}
-                          onChange={e => setLocalSettings({...localSettings, misiSekolah: e.target.value})}
-                          rows={5}
-                          placeholder="1. Misi pertama&#10;2. Misi kedua"
+                          value={localSettings.visiSekolah || 'Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.'}
+                          onChange={e => setLocalSettings({...localSettings, visiSekolah: e.target.value})}
+                          rows={3}
+                          placeholder="Masukkan misi sekolah..."
                           className={cn("w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500", isDarkMode ? "bg-slate-900 border-slate-700 text-white" : "bg-white border-slate-300")}
                         />
                       </div>
