@@ -857,7 +857,7 @@ export default function AdminDashboard() {
                         />
                       </div>
                       <div className="md:col-span-2">
-                        <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Visi Sekolah</label>
+                        <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Visi Sekolah: Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan</label>
                         <textarea
                           value={localSettings.visiSekolah || 'Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan'}
                           onChange={e => setLocalSettings({...localSettings, visiSekolah: e.target.value})}
@@ -867,7 +867,7 @@ export default function AdminDashboard() {
                         />
                       </div>
                       <div className="md:col-span-2">
-                          <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Misi Sekolah</label>
+                          <label className={cn("block text-sm font-medium mb-1", isDarkMode ? "text-slate-300" : "text-slate-700")}>Misi Sekolah : Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.</label>
                         <textarea
                           value={localSettings.visiSekolah || 'Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.'}
                           onChange={e => setLocalSettings({...localSettings, visiSekolah: e.target.value})}
