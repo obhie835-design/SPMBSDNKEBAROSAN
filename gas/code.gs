@@ -28,7 +28,7 @@ const DEFAULT_FORM_FIELDS = [
 ];
 
 const DEFAULT_SETTINGS = {
-  namaSekolah: "SD Negeri KEBAROSAN",
+  namaSekolah: "SD NEGERI KEBAROSAN",
   alamat: "Jl. Raya Serang Cilegon Km.8 No.88 Kramatwatu",
   telepon: "+6281218010605 (Bu Atun) +6289660560744 (Pak Andri)",
   email: "sdnkramatwatu01@gmail.com",
