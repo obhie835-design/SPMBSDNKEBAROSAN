@@ -193,17 +193,16 @@ export default function Home() {
               <div className="mb-8">
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Visi</h4>
                 <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                  "{settings?.visiSekolah || 'Visi sekolah belum diatur.'}"
+                  "{settings?.visiSekolah || 'Berprestasi, Bertaqwa, Berbudi Pekerti Luhur dan Peduli Terhadap Lingkungan'}"
                 </p>
               </div>
               
-              <div>
+              <div className="mb-8">
                 <h4 className="text-lg font-semibold text-slate-800 mb-3">Misi</h4>
-                <ul className="space-y-3">
-                  {(settings?.misiSekolah ? settings.misiSekolah.split('\n') : []).map((misi, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-slate-600">
-                      <CheckCircle2 className="text-green-500 shrink-0 mt-0.5" size={20} />
-                      <span>{misi.replace(/^\d+\.\s*/, '')}</span>
+                <p className="text-slate-600 italic bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                  "{settings?.visiSekolah || 'Mewujudkan peserta didik yang telah memiliki pengalaman dan ketrampilan dasar untuk melanjutkan ke jenjang selanjutnya.'}"
+                </p>
+              </div>
                     </li>
                   ))}
                 </ul>
